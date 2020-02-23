@@ -1,0 +1,129 @@
+body {
+    margin: 0%;
+    height: 100%;
+    background-image: url("background.jpg");
+}
+
+.menu {
+    background-color: rgb(73, 124, 58);
+    margin: 0%;
+    padding: 0;
+}
+
+.menu li {
+    padding: 0%;
+    margin: 0%;
+    display: inline-block;
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu a {
+    color: white;
+    padding: 15px 15px 15px 15px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+.espacamento a {
+    margin-right: 38px;
+}
+
+.parallax {
+    margin: 0%;
+    background-image: url("background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container2 {
+    width: 80%;
+    margin: auto;
+}
+
+.text {
+    background-color: transparent;
+    text-align: center;
+    padding: 40px 60px;
+    color: white;
+}
+
+.texto {
+    background-color: rgba(255, 255, 255, 0.575);
+    padding: 50px 80px;
+}
+
+.texto p {
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    background-color: white;
+    opacity: 1;
+    text-align: center;
+    color: black;
+}
+
+p {
+    text-align: center;
+    text-align: justify;
+    text-indent: 4em;
+    color: white;
+}
+
+li {
+    color: white;
+}
+
+.rodape {
+    display: block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(73, 124, 58);
+    color: white;
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 4px;
+}
+
+.rodape p {
+    text-align: center;
+}
+
+.rodape2 {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(81, 143, 62);
+    text-align: center;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.paragrafo {
+    padding-bottom: 11px;
+}
+
+html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
