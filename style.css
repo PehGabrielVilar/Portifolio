@@ -1,13 +1,17 @@
 body {
     margin: 0%;
     height: 100%;
-    background-image: url("background.jpg");
+    background-color: white;
 }
 
 .menu {
-    background-color: rgb(73, 124, 58);
+    background-color: rgb(5, 4, 75);
     margin: 0%;
     padding: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }
 
 .menu li {
@@ -19,29 +23,97 @@ body {
     padding-bottom: 20px;
 }
 
-.menu a {
-    color: white;
-    padding: 15px 15px 15px 15px;
-    text-decoration: none;
+.container a {
+    color: mintcream;
+    padding: 10px 10px 10px 10px;
+    text-decoration: inherit;
 }
 
 .menu a:hover {
     padding-top: 20px;
     padding-bottom: 20px;
+    font-weight: bold;
+    color: white;
 }
 
 .container {
-    width: 95%;
+    position: center;
     margin: auto;
+    float: right !important;
+    margin-right: 70px;
 }
 
-.espacamento a {
-    margin-right: 38px;
+.logo {
+    margin: auto;
+    float: left !important;
+    margin-left: 70px;
+}
+
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .parallax {
     margin: 0%;
-    background-image: url("background.jpg");
+    background-color: rgb(78, 78, 78);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+
+.text {
+    padding-top: 175px;
+    background-size: 100%;
+    text-align: center;
+    color: white;
+}
+
+.text h2 {
+    color: rgba(255, 255, 255, 0.575);
+    text-align: center;
+    text-align: justify;
+    text-indent: 4em;
+    font-size: 12pt;
+}
+
+.text figure {
+    float: left;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 40px
+}
+
+.hoverbutton a {
+    border: 2px solid white;
+    font-style: bold;
+    color: white;
+}
+
+.button a {
+    border: 2px solid mintcream;
+    background-color: rgb(78, 78, 78);
+    color: mintcream;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.parallax2 {
+    margin: 0%;
+    background: rgb(78, 78, 78);
+    background: linear-gradient(0deg, rgba(193, 193, 193, 1) 0%, rgba(251, 251, 251, 1) 50%, rgba(193, 193, 193, 1) 100%);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -49,24 +121,66 @@ body {
 }
 
 .container2 {
+    height: 100%;
     width: 80%;
     margin: auto;
 }
 
-.text {
-    background-color: transparent;
-    text-align: center;
-    padding: 40px 60px;
-    color: white;
+.container3 {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+
+.parallax3 {
+    margin: 0%;
+    background: rgb(0, 0, 0);
+    background-image: url(img/desenhos/Fundo\ Desenhos.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container4 {
+    height: 100%;
+    width: 69%;
+    margin: auto;
+}
+
+.container5 {
+    height: 100%;
+    width: 69%;
+    margin: auto;
 }
 
 .texto {
     background-color: rgba(255, 255, 255, 0.575);
-    padding: 50px 80px;
+    padding: 40px 80px;
 }
 
 .texto p {
     color: black;
+}
+
+.texto2 {
+    background-color: rgba(255, 255, 255, 0.575);
+    padding: 40px 0px;
+    color: black;
+}
+
+.texto2 p {
+    color: black;
+}
+
+.texto3 {
+    background-color: rgba(0, 0, 0, 0.39);
+    padding: 40px 0px;
+    color: white;
+}
+
+h1 {
+    font-size: 40pt;
 }
 
 h2 {
@@ -75,10 +189,11 @@ h2 {
 }
 
 h3 {
-    background-color: white;
+    background: linear-gradient(90deg, rgba(193, 193, 193, 1) 0%, rgba(251, 251, 251, 1) 100%);
     opacity: 1;
     text-align: center;
     color: black;
+    font-size: 25pt;
 }
 
 p {
@@ -88,8 +203,56 @@ p {
     color: white;
 }
 
+a {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
 li {
     color: white;
+}
+
+.listadedesenho li {
+    padding: 0%;
+    margin: 0%;
+    display: inline-block;
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.listadedesenho figure {
+    margin: 60px;
+}
+
+.listadelinguagem li {
+    padding: 0%;
+    margin: 0%;
+    display: inline-block;
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.listadelinguagem figure {
+    margin: 10px;
+}
+
+.destaque {
+    font-style: bold;
+    background: linear-gradient(90deg, rgba(193, 193, 193, 1) 0%, rgba(251, 251, 251, 1) 100%);
+}
+
+.location {
+    background-image: url(img/icone/pin.png);
+}
+
+.email {
+    background-image: url(img/icone/email.png);
+}
+
+.telephone {
+    background-image: url(img/icone/telephone.png);
 }
 
 .rodape {
@@ -97,7 +260,7 @@ li {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(73, 124, 58);
+    background-color: rgb(175, 174, 174);
     color: white;
     text-align: center;
     padding-top: 22px;
@@ -112,7 +275,7 @@ li {
     width: 100%;
     left: 0;
     bottom: 0;
-    background-color: rgb(81, 143, 62);
+    background-color: rgba(193, 193, 193, 1);
     text-align: center;
     color: white;
     padding-top: 1px;
