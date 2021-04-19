@@ -1,104 +1,137 @@
-body {
-    margin: 0%;
-    height: 100%;
-    background-color: rgb(255, 255, 255);
-}
-
-.menu {
-    background-color: rgb(255, 255, 255);
-    margin: 0%;
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
     padding: 0;
-    position: fixed;
-    top:0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
+    outline: 0;
 }
 
-.menu li {
-    padding: 0%;
-    margin: 0%;
-    display: inline-block;
+html {
+    font-size: 62,5%;
+}
+
+html, body {
+    height: 100vh;
+    font-family: 'Goldman', cursive;
+    font-style: bold;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+body{
+    font-size: 1.2rem;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+}
+
+header img {
+    width: 30px;
+    margin-left: 20px;
+    padding: 15px 0;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
     list-style: none;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
-.container a {
-    color: black;
-    padding: 10px 10px 10px 10px;
-    font-weight: bold;
-    text-decoration: inherit;
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    padding: 24px;
+    transition: all 250ms linear 0s;
 }
 
-.menu a:hover {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-weight: bold;
+header nav ul li a:hover {
     color: #08B96F;
 }
 
-.container {
-    position: center;
+section.hero {
+    margin: 80px 0;
+}
+
+section.hero .container {
+    width: 100%;
+    max-width: 980px;
     margin: auto;
-    float: right !important;
-    margin-right: 70px;
-    margin-top: 4px;
+    display: flex;
 }
-.logo {
-    margin: auto;
-    float: left !important;
-    margin-left: 70px;
-}
-figure img {
-    width: 30px;
-    height: 30px;
-    background-size: 30px;
-}
-.parallax{
-    margin-top: 100px;
-}
-.parallax h1{
+
+section.hero h1 {
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    line-height: 3rem;
     text-align: center;
 }
 
-.parallax video{
-    width: 750px;
-    margin:0 auto;
-    display: block;
+.container h1 {
+    position: absolute;
+    top: 20%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: auto;
 }
+
+.container video {
+    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: auto;
+}
+
 video {
-    margin:auto;
+    width: 200px;
+    height: 200px;
+    margin: auto;
 }
 
 .rodape {
+    width: 100%;
     position: fixed;
     display: block;
     left: 0;
     bottom: 0;
-    width: 100%;
     background-color: rgb(255, 255, 255);
     color: black;
     text-align: center;
     padding-top: 22px;
-    padding-bottom: 4px;
 }
 
 .rodape p {
     text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 1rem;
 }
 
 .rodape2 {
     width: 100%;
     left: 0;
     bottom: 0;
-    background-color: rgb(238, 238, 238);
+    display: block;
+    background-color: rgba(153, 153, 153, 0.404);
     text-align: center;
-    color: black;
-    padding-top: 1px;
-    padding-bottom: 1px;
-}
-
-html {
-    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
