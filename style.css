@@ -107,6 +107,7 @@ video {
 
 .rodape {
     width: 100%;
+    position: fixed;
     display: block;
     left: 0;
     bottom: 0;
