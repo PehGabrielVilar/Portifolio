@@ -1,137 +1,447 @@
 @import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+/* Css do corpo do html */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    outline: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
 }
 
 html {
-    font-size: 62,5%;
+  font-size: 62, 5%;
 }
 
-html, body {
-    height: 100vh;
-    font-family: 'Goldman', cursive;
-    font-style: bold;
-    text-rendering: optimizelegibility;
-    -webkit-font-smoothing: antialiased;
+html,
+body {
+  height: 100vh;
+  font-family: 'Goldman', cursive;
+  font-style: bold;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
-body{
-    font-size: 1.2rem;
+body {
+  font-size: 1.2rem;
 }
+
+/* Css do Menu */
 
 header {
-    background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
 
 header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 980px;
-    margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 980px;
+  margin: auto;
 }
 
 header img {
-    width: 30px;
-    margin-left: 20px;
-    padding: 15px 0;
+  width: 30px;
+  margin-left: 20px;
+  padding: 15px 0;
 }
 
 header nav ul {
-    display: flex;
+  display: flex;
 }
 
 header nav ul li {
-    list-style: none;
+  list-style: none;
 }
 
 header nav ul li a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    text-transform: uppercase;
-    font-size: 0.8rem;
-    padding: 24px;
-    transition: all 250ms linear 0s;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  padding: 24px;
+  transition: all 250ms linear 0s;
 }
 
 header nav ul li a:hover {
-    color: #08B96F;
+  color: #08B96F;
 }
 
-section.hero {
-    margin: 80px 0;
-}
+/* Css do início*/
 
 section.hero .container {
-    width: 100%;
-    max-width: 980px;
-    margin: auto;
-    display: flex;
+  width: 100%;
+  height: 100vh;
+  max-height: 80%;
+  max-width: 980px;
+  margin: auto;
+  display: flex;
+  background-size: 100%;
+  background-color: rgba(0, 0, 0, 0.158);
 }
 
-section.hero h1 {
-    color: rgb(0, 0, 0);
-    font-size: 2rem;
-    line-height: 3rem;
-    text-align: center;
+section.hero2 {
+  margin: 80px 0;
 }
 
-.container h1 {
-    position: absolute;
-    top: 20%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin-top: auto;
+section.hero2 .container {
+  height: 100vh;
+  max-height: 75%;
+  width: 100%;
+  max-width: 980px;
+  margin: auto;
+  background-size: 100%;
 }
 
-.container video {
-    display: flex;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin-top: auto;
+/* Css dos textos do Html */
+
+h1 {
+  color: black;
+  font-size: 1.50rem;
+  line-height: 2.5rem;
 }
 
-video {
-    width: 200px;
-    height: 200px;
-    margin: auto;
+h2 {
+  color: black;
+  font-size: 1rem;
+  line-height: 1.75rem;
+}
+
+h4 {
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+}
+
+.container p {
+  text-align: justify;
+  text-indent: 2.5rem;
+}
+
+p {
+  font-size: 0.85rem;
+  line-height: 1.25rem;
+}
+
+/* Css do Botão do início*/
+
+.button {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  background-color: white;
+  margin: 15px 0px 0px;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 150ms linear 0s;
+}
+
+.button:hover {
+  color: #08B96F;
+}
+
+/* Css das GridViews*/
+
+main {
+  margin-bottom: 0px;
+  background-color: rgba(0, 0, 0, 0);
+  padding-bottom: 20px;
+}
+
+.cardslinguagem {
+  width: 90%;
+  max-width: 980px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-gap: 20px;
+}
+
+.linguagem {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+
+}
+
+.linguagem:hover {
+  transform: translateY(-7px);
+  background-color: rgba(0, 0, 0, 0.247);
+  color: #fdfdfd;
+}
+
+.cards {
+  width: 90%;
+  max-width: 980px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+
+}
+
+.card:hover {
+  transform: translateY(-7px);
+  background-color: rgba(0, 0, 0, 0.247);
+  color: #fdfdfd;
+}
+
+.image {
+  width: 100%;
+  padding-top: 75%;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.image img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.imagel {
+  width: 100%;
+  padding-top: 95%;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.imagel img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  position: center;
+}
+
+.text--medium {
+  font-size: 0.95rem;
+  line-height: 26px;
+  font-weight: 400;
+
+}
+
+.content {
+  margin: 20px;
+}
+
+.title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  align-self: end;
+  align-items: center;
+}
+
+/* Css do Rodapé*/
+
+.mycontainer {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mycontainer {
+  margin-top: 20px;
+}
+
+.mycontainer span {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mycontainer a {
+  color: white;
+  text-decoration: none;
+}
+
+.mycontainer a:hover {
+  color: #08B96F;
+  text-decoration: none;
+}
+
+address {
+  margin-bottom: 30px;
 }
 
 .rodape {
-    width: 100%;
-    position: fixed;
-    display: block;
-    left: 0;
-    bottom: 0;
-    background-color: rgb(255, 255, 255);
-    color: black;
-    text-align: center;
-    padding-top: 22px;
+  width: 100%;
+  display: block;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  padding-top: 22px;
 }
 
-.rodape p {
-    text-align: center;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    font-size: 1rem;
+.rodape h1 {
+  text-align: center;
+  color: white;
 }
 
 .rodape2 {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  display: block;
+  background-color: rgba(153, 153, 153, 0.404);
+  text-align: center;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* As implementações das MediaQuery */
+
+
+@media (max-width: 2560px) {
+  .container {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .opening {
+    padding-right: 5%;
+  }
+
+  object {
     width: 100%;
-    left: 0;
-    bottom: 0;
-    display: block;
-    background-color: rgba(153, 153, 153, 0.404);
+    height: 80%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .hero .container {
+    flex-direction: column;
     text-align: center;
-    color: rgb(0, 0, 0);
-    padding-top: 5px;
-    padding-bottom: 5px;
+  }
+
+  .button {
+    margin: 15px 0px 15px;
+  }
+
+  .opening {
+    padding-right: 0%;
+  }
+
+  object {
+    width: 90%;
+    height: 70%;
+  }
+
+  .container p {
+    font-size: 0.75rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+  }
+}
+
+@media (max-width: 425px) {
+  nav {
+    display: none;
+  }
+
+  .one,
+  .two,
+  .three {
+    background-color: black;
+    height: 5px;
+    width: 100%;
+    margin: 6px auto;
+
+    transition-duration: 0.4s;
+  }
+
+  .menu-toggle {
+    width: 40px;
+    height: 30px;
+    margin-right: 20px;
+  }
+
+
+
+  .menu-section.on {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #fdfdfd;
+
+    z-index: 10;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu-section.on nav {
+    display: block;
+  }
+
+  .menu-section.on .menu-toggle {
+    position: absolute;
+    right: 0px;
+    top: 15px;
+  }
+
+  .menu-section.on .menu-toggle .one {
+    transform: rotate(45deg) translate(7px, 7px);
+  }
+
+  .menu-section.on .menu-toggle .two {
+    opacity: 0;
+  }
+
+  .menu-section.on .menu-toggle .three {
+    transform: rotate(-45deg) translate(8px, -9px);
+  }
+
+  .menu-section.on nav ul {
+    text-align: center;
+    display: block;
+  }
+
+  .menu-section.on nav ul a {
+    transition-duration: 0.6s;
+    display: block;
+  }
+
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 100%;
+  }
 }
