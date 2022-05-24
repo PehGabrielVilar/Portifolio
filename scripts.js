@@ -10,7 +10,7 @@ const imagem = [
   },
   {
     title: "Thor",
-    thumb: src = "imagens/desenhos/thor.jpeg",
+    thumb: src = "imagens/desenhos/thor.jpg",
     info: "Herói e membro dos vingadores, criado pela Marvel."
   },
   {
