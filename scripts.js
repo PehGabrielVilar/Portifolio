@@ -5,22 +5,22 @@ const card = document.querySelector("div.card");
 const imagem = [
   {
     title: "Thanos",
-    thumb: src = "imagens/desenhos/thanos.jpeg",
+    thumb: src = "imagens/thanos.jpeg",
     info: "Vilão do Vingadores, criado pela Marvel."
   },
   {
     title: "Thor",
-    thumb: src = "imagens/desenhos/thor.jpg",
+    thumb: src = "imagens/thor.jpg",
     info: "Herói e membro dos vingadores, criado pela Marvel."
   },
   {
     title: "Cristiano Ronaldo",
-    thumb: src = "imagens/desenhos/cristiano.jpeg",
+    thumb: src = "imagens/cristiano.jpeg",
     info: "Jogador de futebol eleito 5 vezes melhor do mundo."
   },
   {
     title: "Doodles",
-    thumb: src = "imagens/desenhos/doodles.jpeg",
+    thumb: src = "imagens/doodles.jpeg",
     info: "Personagens de várias animações diferentes, juntos."
   },
   {
@@ -30,37 +30,37 @@ const imagem = [
   },
   {
     title: "Demon Slayer",
-    thumb: src = "imagens/desenhos/demonslayer.jpeg",
+    thumb: src = "imagens/demonslayer.jpeg",
     info: "Anime e Mangá criado por Koyoharu Gotouge."
   },
   {
     title: "Ryuk",
-    thumb: src = "imagens/desenhos/ryuk.jpeg",
+    thumb: src = "imagens/ryuk.jpeg",
     info: "Personagem do Anime Death Note, criado por Takeshi Obata."
   },
   {
     title: "Shikamaru",
-    thumb: src = "imagens/desenhos/shikamaru.jpeg",
+    thumb: src = "imagens/shikamaru.jpeg",
     info: "Personagem do Anime Naruton, criado por Masashi Kishimoto."
   },
   {
     title: "Rick and Morty",
-    thumb: src = "imagens/desenhos/rickandmorty.jpeg",
+    thumb: src = "imagens/rickandmorty.jpeg",
     info: "Animação criada por Justin Roiland e Dan Harmon"
   },
   {
     title: "Auto-retrato",
-    thumb: src = "imagens/desenhos/eu.jpeg",
+    thumb: src = "imagens/eu.jpeg",
     info: "Me fiz, em uma versão inspirada na banda Gorillaz."
   },
   {
     title: "Kobe Bryant",
-    thumb: src = "imagens/desenhos/kobebryant.jpeg",
+    thumb: src = "imagens/kobebryant.jpeg",
     info: "Desenho inspirado na animação 'The Boondocks.'"
   },
   {
     title: "Arte Livre",
-    thumb: src = "imagens/desenhos/sketch.jpeg",
+    thumb: src = "imagens/sketch.jpeg",
     info: "Inspirado em sketchs de tatuagem."
   }
 ];
