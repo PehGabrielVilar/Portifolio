@@ -10,57 +10,57 @@ const imagem = [
   },
   {
     title: "Thor",
-    thumb: "imagens/thor.jpg",
+    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/Thor.jpg?raw=true",
     info: "Herói e membro dos vingadores, criado pela Marvel."
   },
   {
     title: "Cristiano Ronaldo",
-    thumb: "imagens/cristiano.jpeg",
+    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/Cristiano.jpeg?raw=true",
     info: "Jogador de futebol eleito 5 vezes melhor do mundo."
   },
   {
     title: "Doodles",
-    thumb: "imagens/doodles.jpeg",
+    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/Doodles.jpeg?raw=true",
     info: "Personagens de várias animações diferentes, juntos."
   },
   {
     title: "Arte Livre",
-    thumb: "imagens/desenhos/tanjiro.jpeg",
+    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/Tanjiro.jpeg?raw=true",
     info: "Criação minha."
   },
   {
     title: "Demon Slayer",
-    thumb: "imagens/demonslayer.jpeg",
+    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/DemonSlayer.jpeg?raw=true",
     info: "Anime e Mangá criado por Koyoharu Gotouge."
   },
   {
     title: "Ryuk",
-    thumb: "imagens/ryuk.jpeg",
+    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/Ryuk.jpeg?raw=true",
     info: "Personagem do Anime Death Note, criado por Takeshi Obata."
   },
   {
     title: "Shikamaru",
-    thumb: "imagens/shikamaru.jpeg",
+    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/Shikamaru.jpeg?raw=true",
     info: "Personagem do Anime Naruton, criado por Masashi Kishimoto."
   },
   {
     title: "Rick and Morty",
-    thumb: "imagens/rickandmorty.jpeg",
+    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/RickandMorty.jpeg?raw=true",
     info: "Animação criada por Justin Roiland e Dan Harmon"
   },
   {
     title: "Auto-retrato",
-    thumb: "imagens/eu.jpeg",
+    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/Eu.jpeg?raw=true",
     info: "Me fiz, em uma versão inspirada na banda Gorillaz."
   },
   {
     title: "Kobe Bryant",
-    thumb: "imagens/kobebryant.jpeg",
+    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/KobeBryant.jpeg?raw=true",
     info: "Desenho inspirado na animação 'The Boondocks.'"
   },
   {
     title: "Arte Livre",
-    thumb: "imagens/sketch.jpeg",
+    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/Sketch.jpeg?raw=true",
     info: "Inspirado em sketchs de tatuagem."
   }
 ];

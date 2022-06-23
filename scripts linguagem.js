@@ -5,26 +5,26 @@ const cardl = document.querySelector("div.linguagem");
 const linguagem = [
     {
         title: "Android",
-        thumb: src="imagens/linguagem_de_programacao/Android.JPEG",
+        thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/linguagem_de_programacao/Android.jpeg?raw=true",
       },
       {
         title: "CSS3",
-        thumb: src="imagens/linguagem_de_programacao/CSS3.JPEG",
+        thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/linguagem_de_programacao/Css3.jpeg?raw=true",
         
       },
       {
         title: "HTML5",
-        thumb: src="imagens/linguagem_de_programacao/HTML5.JPEG",
+        thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/linguagem_de_programacao/HTML5.jpeg?raw=true",
         
       },
       {
         title: "Java",
-        thumb: src="imagens/linguagem_de_programacao/Java.JPEG",
+        thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/linguagem_de_programacao/Java.jpeg?raw=true",
         
       },
       {
         title: "Python",
-        thumb: src="imagens/linguagem_de_programacao/Python.JPEG",
+        thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/linguagem_de_programacao/Python.jpeg?raw=true",
         
       },
 ];
