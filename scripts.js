@@ -5,42 +5,42 @@ const card = document.querySelector("div.card");
 const imagem = [
   {
     title: "Thanos",
-    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/Thanos.jpeg?raw=true",
+    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/Thanos.jpg?raw=true",
     info: "Vilão do Vingadores, criado pela Marvel."
   },
   {
     title: "Thor",
-    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/Thor.jpeg?raw=true",
+    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/Thor.jpg?raw=true",
     info: "Herói e membro dos vingadores, criado pela Marvel."
   },
   {
     title: "Cristiano Ronaldo",
-    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/Cristiano.jpeg?raw=true",
+    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/Cristiano.jpg?raw=true",
     info: "Jogador de futebol eleito 5 vezes melhor do mundo."
   },
   {
     title: "?",
-    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/Livre.jpeg?raw=true",
+    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/Livre.jpg?raw=true",
     info: "Estilo livre, criado por Pedro Gabriel Vilar"
   },
   {
     title: "Seja seu Herói",
-    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/Hero.jpeg?raw=true",
+    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/Hero.jpg?raw=true",
     info: "Estilo livre, criado por Pedro Gabriel Vilar"
   },
   {
     title: "Demon Slayer",
-    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/DemonSlayer.jpeg?raw=true",
+    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/DemonSlayer.jpg?raw=true",
     info: "Anime e Mangá criado por Koyoharu Gotouge."
   },
   {
     title: "Ryuk",
-    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/Ryuk.jpeg?raw=true",
+    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/Ryuk.jpg?raw=true",
     info: "Personagem do Anime Death Note, criado por Takeshi Obata."
   },
   {
     title: "Picles Rick",
-    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/PicklesRick.jpeg?raw=true",
+    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/PicklesRick.jpg?raw=true",
     info: "Animação criada por Justin Roiland e Dan Harmon"
   },
   {
