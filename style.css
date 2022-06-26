@@ -405,8 +405,14 @@ address {
   }
 }
 
+@media (max-width: 900px) {
+  section.hero .container {
+    height: 140vh;
+  }
 
-@media (max-width: 896px) {
+}
+
+@media (max-width: 768px) {
   .hero .container {
     flex-direction: column;
     text-align: center;
