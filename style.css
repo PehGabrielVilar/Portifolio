@@ -575,6 +575,17 @@ address {
 
 }
 
+@media (max-width: 425px) {
+  section.hero2 .container {
+    height: 140vh;
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+    background-size: 100%;
+  }
+
+}
+
 @media (max-width: 320px) {
   html {
     font-size: 80%;
