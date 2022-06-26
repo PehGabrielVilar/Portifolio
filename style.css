@@ -444,7 +444,7 @@ address {
 
 @media (max-width: 728px) {
   html {
-    font-size: 90%;
+    font-size: 80%;
 
   }
 
@@ -496,7 +496,7 @@ address {
   }
 
   section.hero .container {
-    height: 120vh;
+    height: 150vh;
   }
 
   section.hero2 .container {
@@ -594,12 +594,12 @@ address {
 
 @media (max-width: 320px) {
   html {
-    font-size: 80%;
+    font-size: 70%;
 
   }
 
   .container p {
-    font-size: 80%;
+    font-size: 70%;
   }
 
   .container figure img {
