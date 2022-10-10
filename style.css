@@ -420,9 +420,6 @@ address {
     top: 50%;
   }
 
-  section.hero .container H1 {
-    padding-left: 30%;
-  }
 }
 
 @media (max-width: 900px) {
@@ -430,9 +427,6 @@ address {
     height: 140vh;
   }
 
-  section.hero .container H1 {
-    padding-left: 0%;
-  }
 
 }
 
