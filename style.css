@@ -859,9 +859,12 @@ h5{
   line-height: 1rem;
 }
 
+
 .container p {
   text-align: justify;
   text-indent: 2.5rem;
+  font-size: 0.5rem;
+  line-height: 1rem;
 }
 
 p {
