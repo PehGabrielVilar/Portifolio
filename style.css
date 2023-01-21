@@ -836,7 +836,7 @@ address {
 h1 {
   color: black;
   font-size: 1.5rem;
-  line-height: 1.25rem;
+  line-height: 1.5rem;
 }
 
 h2 {
@@ -871,7 +871,7 @@ p {
 
   .title2 h2{
     font-weight: bolder;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     line-height: 26px;
     font-weight: 600;
     position: center;
@@ -880,7 +880,7 @@ p {
   }
   
   .title2 h3{
-    font-size: 1rem;
+    font-size: 0.85rem;
     line-height: 26px;
     font-weight: 400;
     position: center;
@@ -1006,7 +1006,7 @@ p {
 h1 {
   color: black;
   font-size: 1.5rem;
-  line-height: 1.25rem;
+  line-height: 1.5rem;
 }
 
 h2 {
