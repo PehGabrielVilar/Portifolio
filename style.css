@@ -481,7 +481,6 @@ main {
 .text--medium {
   font-size: 0.85rem;
   line-height: 26px;
-  font-weight: 400;
 }
 
 .content {
@@ -856,7 +855,7 @@ h4 {
 
 h5{
   font-size: 0.5rem;
-  line-height: 1rem;
+  line-height: 0.75rem;
 }
 
 
@@ -864,12 +863,12 @@ h5{
   text-align: justify;
   text-indent: 2.5rem;
   font-size: 0.5rem;
-  line-height: 1rem;
+  line-height: 0.75rem;
 }
 
 p {
   font-size: 0.5rem;
-  line-height: 1rem;
+  line-height: 0.75rem;
 }
 
   .title2 h2{
@@ -976,7 +975,7 @@ p {
 
   .title {
     font-weight: bolder;
-    font-size: 1.25rem;
+    font-size: 0.75rem;
     line-height: 20px;
     font-weight: 400;
     position: center;
@@ -988,9 +987,8 @@ p {
   
   
   .text--medium {
-    font-size: 0.85rem;
-    line-height: 16px;
-    font-weight: 400;
+    font-size: 0.5rem;
+    line-height: 1rem;
   }
   
   .content {
@@ -1029,17 +1027,18 @@ h4 {
 
 h5{
   font-size: 0.5rem;
-  line-height: 1rem;
+  line-height: 0.75rem;
 }
 
 .container p {
   text-align: justify;
-  text-indent: 2.5rem;
+  font-size: 0.5rem;
+  line-height: 0.75rem;
 }
 
 p {
   font-size: 0.5rem;
-  line-height: 1rem;
+  line-height: 0.75rem;
 }
 
   .title2 h2{
@@ -1219,8 +1218,8 @@ p {
   
   
   .text--medium {
-    font-size: 0.5rem;
-    line-height: 16px;
+    font-size: 0.3rem;
+    line-height: 1rem;
     font-weight: 400;
   }
   
