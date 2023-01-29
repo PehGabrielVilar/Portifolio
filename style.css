@@ -806,6 +806,33 @@ address {
     font-size: 1rem;
   }
 
+  .cardslinguagem {
+    width: 80%;
+    max-width: 980px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 16px;
+  }
+
+  .cardsengine {
+    width: 80%;
+    max-width: 480px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 16px;
+  }
+
+  .cards {
+    width: 80%;
+    max-width: 980px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 16px;
+  }
+
 }
 
 @media (max-width: 425px) {
@@ -1010,7 +1037,7 @@ address {
     max-width: 980px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-gap: 16px;
   }
 
@@ -1028,7 +1055,7 @@ address {
     max-width: 980px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-gap: 16px;
   }
 
