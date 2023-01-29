@@ -10,7 +10,6 @@ const engine = [
   {
     title: "Godot",
     thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/engine_de_jogos/Godot.jpeg?raw=true",
-
   }
 ];
 

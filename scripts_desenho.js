@@ -21,7 +21,7 @@ const imagem = [
   {
     title: "Demon Slayer",
     thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/DemonSlayer.jpg?raw=true",
-    info: "Desenho do anime e mangá criado por Koyoharu Gotouge." 
+    info: "Desenho do anime e mangá criado por Koyoharu Gotouge."
   },
   {
     title: "Ryuk",
@@ -62,7 +62,7 @@ const imagem = [
     title: "Arte Livre",
     thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/Sketch.jpeg?raw=true",
     info: "Inspirado no jogo Hollow Knight e sketch de tatuagem."
-  } 
+  }
 ];
 
 imagem.map(imagem => {
