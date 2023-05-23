@@ -62,7 +62,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color: #0331ff;
+  color: #586EFF; 
 }
 
 /* Css do início*/
@@ -105,7 +105,7 @@ section.hero2 .container {
 /* Css dos textos do Html */
 
 .opening h1 {
-  color: rgb(189, 189, 189);
+  color:#586EFF;
   text-align: center;
 }
 
@@ -113,23 +113,20 @@ section.hero2 .container {
   font-weight: 400;
 }
 
-.borda_texto {
-  font-family: 'Goldman', cursive;
-}
-
 h1 {
-  color: black;
+  color: whitesmoke;
   font-size: 2rem;
   line-height: 2.5rem;
 }
 
 h2 {
-  color: black;
+  color: white;
   font-size: 1.10rem;
   line-height: 1.75rem;
 }
 
 h3 {
+  color: white;
   font-size: 0.8rem;
   line-height: 1.25rem;
 }
@@ -150,6 +147,7 @@ h5 {
 }
 
 .space2 {
+  color: white;
   margin-top: 2.5%;
 }
 
@@ -160,11 +158,13 @@ h5 {
 }
 
 .container3 .space2 {
+  
   text-align: justify;
   text-indent: 2.5rem;
 }
 
 .space {
+  color: white;
   text-align: justify;
   text-indent: 2.5rem;
   margin-top: 2.5%;
@@ -185,7 +185,7 @@ p {
 /* Css do Botão do início*/
 
 button {
-  border: 2px solid #E8E8E8;
+  border: 2px solid #c5c5c5;
   border-radius: 4px;
 }
 
@@ -222,7 +222,7 @@ button {
 
 .button:hover {
 
-  color: #0331ff;
+  color: #586EFF;
   transition-delay: 1ms;
   cursor: pointer;
 }
@@ -247,7 +247,7 @@ input[type="radio"] {
 label {
   background-color: white;
   position: relative;
-  color: #0331ff;
+  color: #586EFF;
   border-bottom: 5px solid white;
   border-radius: 16px;
   padding: 10px 50px;
@@ -258,9 +258,9 @@ label {
 
 input[type="radio"]:checked+label {
   background-color: white;
-  border-bottom: 5px solid #0331ff;
+  border-bottom: 5px solid #586EFF;
   border-radius: 16px;
-  color: #0331ff;
+  color: #586EFF;
   cursor: pointer;
 }
 
@@ -385,8 +385,8 @@ main {
 
 .linguagem:hover {
   transform: translateY(-7px);
-  color: #0331ff;
-  border-bottom: 5px solid #0331ff;
+  color: #14BE9A;
+  border-bottom: 5px solid #14BE9A;
   border-radius: 16px;
 }
 
@@ -410,8 +410,8 @@ main {
 
 .engine:hover {
   transform: translateY(-7px);
-  color: #6403ff;
-  border-bottom: 5px solid #6403ff;
+  color: #14BE9A;
+  border-bottom: 5px solid #14BE9A;
   border-radius: 16px;
 }
 
@@ -437,12 +437,12 @@ main {
 .card:hover {
   transform: translateY(-7px);
   color: black;
-  border-bottom: 5px solid #b803ff;
+  border-bottom: 5px solid #14BE9A;
   border-radius: 16px;
 }
 
 .card:hover .title {
-  color: #b803ff;
+  color: #14BE9A;
 
 }
 
@@ -515,7 +515,7 @@ main {
 
 .text--medium {
   font-size: 0.85rem;
-  line-height: 26px;
+  line-height: 1.1rem;
 }
 
 .content {
@@ -558,7 +558,7 @@ main {
 }
 
 .mycontainer a:hover {
-  color: #0331ff;
+  color: #586EFF;
   text-decoration: none;
 }
 
@@ -576,14 +576,14 @@ address {
   text-align: center;
   padding-top: 22px;
   border-radius: 16px;
-  border-top: 5px solid#c0c0c0;
+  border-top: 5px solid#14BE9A;
 
 }
 
 .rodape h2 {
   font-size: 1.5rem;
   text-align: center;
-  color: #c0c0c0;
+  color: #14BE9A;
 }
 
 .rodape2 {
@@ -591,7 +591,7 @@ address {
   left: 0;
   bottom: 0;
   display: block;
-  background-color: #9c9c9c;
+  background-color: #14BE9A;
   text-align: center;
   color: white;
   padding-top: 5px;
@@ -607,7 +607,7 @@ address {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    background-color: #E8E8E8;
+    background-color: #1E1E1E;
   }
 
 
@@ -643,7 +643,7 @@ address {
   .one,
   .two,
   .three {
-    background-color: black;
+    background-color: #586EFF;
     height: 5px;
     width: 100%;
     margin: 6px auto;
@@ -675,7 +675,7 @@ address {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: #fdfdfd;
+    background-color: #1E1E1E;
     z-index: 10;
     display: flex;
     justify-content: center;
@@ -728,7 +728,7 @@ address {
   label {
     background-color: white;
     position: relative;
-    color: #0331ff;
+    color: #586EFF;
     border-bottom: 5px solid white;
     border-radius: 16px;
     padding: 10px 20px;
@@ -801,6 +801,7 @@ address {
 
 
   .menu-section.on nav ul a {
+    color: white;
     transition-duration: 0.6s;
     display: block;
     font-size: 1rem;
@@ -854,7 +855,7 @@ address {
   .one,
   .two,
   .three {
-    background-color: black;
+    background-color: #586EFF;
     height: 4px;
     width: 80%;
     margin: 5px auto;
@@ -917,13 +918,13 @@ address {
   }
 
   h1 {
-    color: black;
+    color: white;
     font-size: 1.5rem;
     line-height: 2rem;
   }
 
   h2 {
-    color: black;
+    color: white;
     font-size: 0.75rem;
     line-height: 1.25rem;
   }
@@ -1074,7 +1075,7 @@ address {
 
   .text--medium {
     font-size: 0.5rem;
-    line-height: 0.5rem;
+    line-height: 0.75rem;
   }
 
   .content {
@@ -1091,13 +1092,13 @@ address {
 
 
   h1 {
-    color: black;
+    color: white;
     font-size: 1.5rem;
     line-height: 1.5rem;
   }
 
   h2 {
-    color: black;
+    color: white;
     font-size: 0.75rem;
     line-height: 1.25rem;
   }
@@ -1126,6 +1127,11 @@ address {
   p {
     font-size: 0.5rem;
     line-height: 0.75rem;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
   }
 
   .title2 h2 {
@@ -1308,7 +1314,7 @@ address {
 
   .text--medium {
     font-size: 0.3rem;
-    line-height: 1rem;
+    line-height: 0.55rem;
     font-weight: 400;
   }
 
