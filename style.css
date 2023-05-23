@@ -39,7 +39,7 @@ header .container {
 }
 
 header a img {
-  width: 40%;
+  width: 47%;
 }
 
 header nav ul {
@@ -52,6 +52,7 @@ header nav ul li {
 }
 
 header nav ul li a {
+  animation-delay: 2s;
   font-weight: bolder;
   text-decoration: none;
   color: rgb(0, 0, 0);
@@ -62,7 +63,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color: #586EFF; 
+  color: #586EFF;
 }
 
 /* Css do início*/
@@ -90,6 +91,8 @@ section.hero .container {
   display: flex;
   background-size: 100%;
   background-color: rgb(255, 255, 255);
+  border-radius: 0px 0px 16px 16px;
+  border-bottom: 5px solid#14BE9A;
 }
 
 section.hero2 .container {
@@ -105,7 +108,7 @@ section.hero2 .container {
 /* Css dos textos do Html */
 
 .opening h1 {
-  color:#586EFF;
+  color: #586EFF;
   text-align: center;
 }
 
@@ -158,7 +161,7 @@ h5 {
 }
 
 .container3 .space2 {
-  
+
   text-align: justify;
   text-indent: 2.5rem;
 }
@@ -227,10 +230,44 @@ button {
   cursor: pointer;
 }
 
+
+.button2 {
+  height: 5%;
+  display: flex;
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  margin: 15px auto 0px;
+  padding: 12px 12px;
+  border-radius: 25px;
+  border: 2px solid #fdfdfd;
+  transition: all 150ms linear 0s;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: bolder;
+}
+
+.button2:hover {
+
+  color: #586EFF;
+  transition-delay: 1ms;
+  cursor: pointer;
+}
+
+.button2 a {
+  display: flex;
+  color: #586EFF;
+  margin-right: 10px;
+  margin-top: 6px;
+}
+
 /* Css do carrosel*/
 
 .entrada {
-  height: 350px;
+  height: 450px;
   margin: 0;
   display: grid;
   grid-template-rows: 350px 0px;
@@ -241,7 +278,7 @@ button {
 
 input[type="radio"] {
   display: none;
-  grid-template-columns: 1fr 100px 100px 100px 100px 100px 1fr;
+  grid-template-columns: 1fr 150px 150px 150px 150px 150px 1fr;
 }
 
 label {
@@ -296,19 +333,19 @@ div.item {
 div.item:nth-of-type(1) {
   --offset: 1;
   background-size: 250px;
-  background-image: url("imagens/instituicoes/Etec\ Irma\ Agostina.jpg");
+  background-image: url("imagens/jogo/DarkDeep1.jpg");
 }
 
 div.item:nth-of-type(2) {
   --offset: 2;
   background-size: 250px;
-  background-image: url("imagens/instituicoes/Fatec.jpeg");
+  background-image: url("imagens/jogo/DarkDeep2.jpg");
 }
 
 div.item:nth-of-type(3) {
   --offset: 3;
   background-size: 250px;
-  background-image: url("imagens/instituicoes/Saga.jpg");
+  background-image: url("imagens/jogo/DarkDeep3.jpg");
 }
 
 input:nth-of-type(1) {
@@ -459,7 +496,7 @@ main {
 
 .title2 h2 {
   font-weight: bolder;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   line-height: 26px;
   font-weight: 600;
   position: center;
@@ -468,11 +505,11 @@ main {
 }
 
 .title2 h3 {
-  font-size: 1.0rem;
+  font-size: 1.25rem;
   line-height: 26px;
   font-weight: 400;
   position: center;
-  margin-top: 2.5%;
+  margin-top: 3%;
   text-align: center;
 }
 
@@ -793,7 +830,7 @@ address {
     grid-gap: 16px;
   }
 
- 
+
 
   .cards {
     width: 80%;
@@ -950,7 +987,7 @@ address {
     height: 500px;
     margin: 0;
     display: grid;
-    grid-template-rows: 450px 0px;
+    grid-template-rows: 300px 0px;
     grid-template-columns: 33.3% 33.3% 33.3%;
     align-items: center;
     justify-items: center;
@@ -1056,7 +1093,6 @@ address {
   h1 {
     color: white;
     font-size: 1.5rem;
-    line-height: 1.5rem;
   }
 
   h2 {
@@ -1119,7 +1155,7 @@ address {
   .one,
   .two,
   .three {
-    background-color: black;
+    background-color: #586EFF;
     height: 4px;
     width: 80%;
     margin: 5px auto;
@@ -1154,7 +1190,7 @@ address {
   .menu-section.on nav ul a {
     transition-duration: 0.6s;
     display: block;
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
 
@@ -1181,7 +1217,7 @@ address {
     height: 500px;
     margin: 0;
     display: grid;
-    grid-template-rows: 450px 0px;
+    grid-template-rows: 250px 0px;
     grid-template-columns: 33.3% 33.3% 33.3%;
     align-items: center;
     justify-items: center;
