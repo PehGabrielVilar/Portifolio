@@ -4,13 +4,13 @@ const cardl = document.querySelector("div.formacoes");
 
 const formacoes = [
   {
-    thumb: "imagens/instituicoes/Etec\ Irma\ Agostina.jpg",
+    thumb: "imagens/jogo/DarkDeep1.jpg",
   },
   {
-    thumb: "imagens/instituicoes/Fatec.jpeg",
+    thumb: "imagens/jogo/DarkDeep2.jpg",
   },
   {
-    thumb: "imagens/instituicoes/Saga.jpg",
+    thumb: "imagens/jogo/DarkDeep3.jpg",
   },
 ];
 

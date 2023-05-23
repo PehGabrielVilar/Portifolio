@@ -390,30 +390,7 @@ main {
   border-radius: 16px;
 }
 
-.cardsengine {
-  width: 80%;
-  max-width: 480px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  grid-gap: 20px;
-}
 
-.engine {
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  cursor: pointer;
-  transition: all 0.5s ease 0s;
-  border-bottom: 5px solid white;
-}
-
-.engine:hover {
-  transform: translateY(-7px);
-  color: #14BE9A;
-  border-bottom: 5px solid #14BE9A;
-  border-radius: 16px;
-}
 
 .cards {
   width: 90%;
@@ -816,14 +793,7 @@ address {
     grid-gap: 16px;
   }
 
-  .cardsengine {
-    width: 80%;
-    max-width: 480px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    grid-gap: 16px;
-  }
+ 
 
   .cards {
     width: 80%;
@@ -1042,14 +1012,6 @@ address {
     grid-gap: 16px;
   }
 
-  .cardsengine {
-    width: 80%;
-    max-width: 480px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-gap: 16px;
-  }
 
   .cards {
     width: 80%;
@@ -1275,15 +1237,6 @@ address {
   .cardslinguagem {
     width: 80%;
     max-width: 980px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-gap: 16px;
-  }
-
-  .cardsengine {
-    width: 80%;
-    max-width: 480px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
