@@ -232,6 +232,7 @@ button {
 
 
 .button2 {
+  width: max-content;
   height: 5%;
   display: flex;
   color: white;
@@ -257,10 +258,10 @@ button {
   cursor: pointer;
 }
 
-.button2 a {
+.button2 svg{
   display: flex;
   color: #586EFF;
-  margin-right: 10px;
+  margin-right: -10%;
   margin-top: 6px;
 }
 
