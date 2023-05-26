@@ -59,11 +59,11 @@ header nav ul li a {
   font-size: 0.8rem;
   padding: 24px;
   transition: all 250ms linear 0s;
-  text-transform: uppercase;
+
 }
 
 header nav ul li a:hover {
-  color: #586EFF;
+  color: #1c54b4;
 }
 
 /* Css do início*/
@@ -108,7 +108,7 @@ section.hero2 .container {
 /* Css dos textos do Html */
 
 .opening h1 {
-  color: #586EFF;
+  color: #1c54b4;
   text-align: center;
 }
 
@@ -225,7 +225,7 @@ button {
 
 .button:hover {
 
-  color: #586EFF;
+  color: #1c54b4;
   transition-delay: 1ms;
   cursor: pointer;
 }
@@ -253,14 +253,14 @@ button {
 
 .button2:hover {
 
-  color: #586EFF;
+  color: #1c54b4;
   transition-delay: 1ms;
   cursor: pointer;
 }
 
 .button2 svg{
   display: flex;
-  color: #586EFF;
+  color: #1c54b4;
   margin-right: -10%;
   margin-top: 6px;
 }
@@ -285,7 +285,7 @@ input[type="radio"] {
 label {
   background-color: white;
   position: relative;
-  color: #586EFF;
+  color: #1c54b4;
   border-bottom: 5px solid white;
   border-radius: 16px;
   padding: 10px 50px;
@@ -296,9 +296,9 @@ label {
 
 input[type="radio"]:checked+label {
   background-color: white;
-  border-bottom: 5px solid #586EFF;
+  border-bottom: 5px solid #1c54b4;
   border-radius: 16px;
-  color: #586EFF;
+  color: #1c54b4;
   cursor: pointer;
 }
 
@@ -573,7 +573,7 @@ main {
 }
 
 .mycontainer a:hover {
-  color: #586EFF;
+  color: #1c54b4;
   text-decoration: none;
 }
 
@@ -658,7 +658,7 @@ address {
   .one,
   .two,
   .three {
-    background-color: #586EFF;
+    background-color: #1c54b4;
     height: 5px;
     width: 100%;
     margin: 6px auto;
@@ -743,7 +743,7 @@ address {
   label {
     background-color: white;
     position: relative;
-    color: #586EFF;
+    color: #1c54b4;
     border-bottom: 5px solid white;
     border-radius: 16px;
     padding: 10px 20px;
@@ -863,7 +863,7 @@ address {
   .one,
   .two,
   .three {
-    background-color: #586EFF;
+    background-color: #1c54b4;
     height: 4px;
     width: 80%;
     margin: 5px auto;
@@ -1156,7 +1156,7 @@ address {
   .one,
   .two,
   .three {
-    background-color: #586EFF;
+    background-color: #1c54b4;
     height: 4px;
     width: 80%;
     margin: 5px auto;
