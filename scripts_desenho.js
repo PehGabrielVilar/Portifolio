@@ -15,8 +15,8 @@ const imagem = [
   },
   {
     title: "Autorretrato",
-    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/Eu.jpeg?raw=true",
-    info: "Fiz um autorretrato inspirado em animes antigos."
+    thumb: "https://github.com/PehGabrielVilar/PehGabrielVilar.github.io/blob/master/imagens/desenhos/Eu.jpg?raw=true",
+    info: "Fiz um autorretrato inspirado em animações."
   },
   {
     title: "Kobe Bryant",
