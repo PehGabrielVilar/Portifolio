@@ -11,6 +11,7 @@
 
 html {
   font-size: 62, 5%;
+  -webkit-tap-highlight-color: transparent;
 }
 
 html,
@@ -420,8 +421,9 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   grid-gap: 20px;
-  cursor: pointer;
+  
 }
+
 
 .linguagem {
   display: flex;
@@ -429,7 +431,7 @@ main {
   background-color: white;
   transition: all 0.5s ease 0s;
   border-bottom: 5px solid white;
-
+  cursor: pointer;
 }
 
 .linguagem:hover {
@@ -437,19 +439,17 @@ main {
   color: #14BE9A;
   border-bottom: 5px solid #14BE9A;
   border-radius: 16px;
+  
 }
-
 
 
 .cards {
   width: 90%;
   max-width: 980px;
   margin: auto;
-
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   grid-gap: 20px;
-  cursor: pointer;
 }
 
 .card {
@@ -458,6 +458,7 @@ main {
   background-color: white;
   transition: all 0.3s ease 0s;
   border-bottom: 5px solid white;
+  cursor: pointer;
 }
 
 .card:hover {
