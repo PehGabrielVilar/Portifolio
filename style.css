@@ -270,10 +270,9 @@ button {
 /* Css do carrosel*/
 
 .entrada {
-  height: 450px;
   margin: 0;
   display: grid;
-  grid-template-rows: 375px 0px;
+  grid-template-rows: 295px 80px;
   align-items: center;
   justify-items: center
 }
@@ -308,7 +307,7 @@ main#carousel {
   grid-row: 1 / 2;
   grid-column: 1 / 4;
   width: 70vw;
-  height: 500px;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
